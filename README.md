@@ -44,4 +44,4 @@ The dataset classifies target instances into 9 precise part-of-speech-tagged cat
 Ensure you have Python 3.10+ installed along with the required natural language processing libraries:
 
 ```bash
-pip install nltk openai pathlib
+pip install nltk openai pathlib && python -c "import nltk; [nltk.download(pkg) for pkg in ['gutenberg', 'wordnet', 'punkt_tab', 'averaged_perceptron_tagger_eng']]"
